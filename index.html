@@ -1,71 +1,147 @@
 <!DOCTYPE html>
-<html lang="en" 
-<meta name="viewport">
-</script></head><body>
-
-
+<html lang="en">
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Simple Webpage</title>
+  <title>Welcome to Flagstaff Adventures</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
       margin: 0;
-      padding: 20px;
+      padding: 0;
+      background-color: #f0f0f0;
       text-align: center;
     }
     header {
-      background-color: #333;
+      background-color: #2c3e50;
       color: #fff;
-      padding: 10px 0;
+      padding: 20px 0;
     }
-    h1 {
+    header h1 {
       margin: 0;
+      font-size: 2.5em;
     }
-    p {
-      font-size: 1.2em;
+    nav {
+      background-color: #34495e;
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
     }
-    a {
-      color: #007bff;
+    nav a {
+      color: white;
       text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
     }
-  </style>
-
-
-  <header>
-    <h1>Welcome to My Website</h1>
-  </header>
-  <p>This is a simple webpage hosted on GitHub.</p>
-  <p>Visit my <a href="https://github.com/">GitHub Profile</a>.</p>
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NASA APOD</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      text-align: center;
+    nav a:hover {
+      text-decoration: underline;
     }
-    img {
+    main {
+      padding: 20px;
+    }
+    section {
+      margin: 40px 0;
+    }
+    .hero {
+      background-color: #3498db;
+      color: white;
+      padding: 40px 20px;
+      border-radius: 8px;
+    }
+    .adventure-card {
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px auto;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      max-width: 600px;
+    }
+    .adventure-card img {
       max-width: 100%;
-      height: auto;
-      margin-top: 20px;
+      border-radius: 8px;
     }
-    h1 {
-      margin-bottom: 10px;
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px 0;
+      margin-top: 40px;
     }
-    p {
-      max-width: 800px;
-      margin: 0 auto;
+    .loading {
+      font-style: italic;
+      color: #555;
     }
   </style>
 </head>
 <body>
-  <h1>NASA Astronomy Picture of the Day</h1>
-  <div id="apod-container">
-    <p>Loading...</p>
-  </div>
-<script src="scripts/nasa.js"></script>
+
+  <header>
+    <h1>Welcome to Flagstaff Adventures!</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Activities</a>
+    <a href="#">Food</a>
+    <a href="#">Shopping</a>
+    <a href="#">Hiking trails</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h2>Explore the Best of Flagstaff</h2>
+      <p>Discover local activities, food, shopping, and hiking spots. Plan your next adventure right here!</p>
+    </section>
+
+    <!-- Featured Adventure Sections -->
+    <section>
+      <h2>Featured Activities</h2>
+      <div class="adventure-card">
+        <h3>Mountain Biking</h3>
+        <img src="images/biking.jpg" alt="Mountain Biking in Flagstaff">
+        <p>Experience thrilling trails surrounded by beautiful landscapes.</p>
+      </div>
+      <div class="adventure-card">
+        <h3>Hiking Trails</h3>
+        <img src="images/hiking.jpg" alt="Hiking in Flagstaff">
+        <p>Explore scenic paths suitable for all skill levels.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Featured Food Spots</h2>
+      <div class="adventure-card">
+        <h3>Local Café</h3>
+        <img src="images/cafe.jpg" alt="Local Café">
+        <p>Enjoy unique dishes and coffee in Flagstaff's cozy cafés.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Featured Shopping</h2>
+      <div class="adventure-card">
+        <h3>Downtown Shops</h3>
+        <img src="images/shopping.jpg" alt="Shopping in Flagstaff">
+        <p>Find souvenirs, local crafts, and much more!</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>NASA Picture of the Day (Demo API)</h2>
+      <div id="apod-container">
+        <p class="loading">Loading data...</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Flagstaff Adventures. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts/nasa.js"></script>
 </body>
+</html>
