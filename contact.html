@@ -7,20 +7,31 @@
     </head>
   <style>
   .contact-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 40px;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
   .contact-card {
+    flex: 1;
+    min width: 20%;
     background-color: #34495e;
     color: white;
-    padding: 25px;
+    padding: 35px 20px;
     border-radius: 12px;
     text-align: center;
+    border: 1px solid black;
     transition: transform 0.3s ease, background-color 0.3s ease;
     box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+  }
+
+  .contact-card:hover
+    .contact-card h2,
+    .contact-card p,
+    .contact-card a{
+      color:white;
+      
   }
 
   .contact-card:hover {
@@ -29,7 +40,7 @@
   }
 
   .contact-card a {
-    color: #1abc9c;
+    color: #ffffff;
     font-weight: bold;
     text-decoration: none;
   }
