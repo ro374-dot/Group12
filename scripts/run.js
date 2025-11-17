@@ -49,5 +49,5 @@ function loadTrailData(jsonPath) {
 
 // Call the function with the path to your JSON, when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
-  loadTrailData('scripts/Hikes.json');
+  loadTrailData('api/Hikes.json');
 });
