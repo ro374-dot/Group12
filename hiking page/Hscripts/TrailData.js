@@ -1,16 +1,3 @@
-// Function to create a trail object
-function createTrail(name, rating, maxRating, address, description, imageUrl) {
-  return {
-    trail_name: name,
-    rating: rating,
-    max_rating: maxRating,
-    address: address,
-    description: description,
-    image_url: imageUrl
-  };
-}
-
-// Function to fetch and display trails
 function loadTrails() {
   fetch('api/trails.json')
     .then(response => response.json())
@@ -26,12 +13,16 @@ function loadTrails() {
 
       const container = document.getElementById('trails-container');
 
+      let index = 0; // Initialize counter
+
       trails.forEach(trail => {
+        index++; // Increment counter for each trail
+
         const trailDiv = document.createElement('div');
         trailDiv.className = 'trail';
 
         trailDiv.innerHTML = `
-          <h2>${index + 1}. ${trail.trail_name}</h2>
+          <h2>${index}. ${trail.trail_name}</h2>
           <img src="${trail.image_url}" alt="${trail.trail_name}">
           <p><strong>Rating:</strong> ${trail.rating} / ${trail.max_rating}</p>
           <p><strong>Address:</strong> ${trail.address}</p>
@@ -46,6 +37,3 @@ function loadTrails() {
       document.getElementById('trails-container').innerText = 'Failed to load trail data.';
     });
 }
-
-// Call loadTrails when the DOM is fully loaded
-document.addEventListener('DOMContentLoaded', loadTrails);
