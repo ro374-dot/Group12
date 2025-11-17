@@ -5,6 +5,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us - Flagstaff Adventures</title>
     </head>
+  <style>
+  .contact-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+  }
+
+  .contact-card {
+    background-color: #34495e;
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+  }
+
+  .contact-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    background-color: #2c3e50;
+  }
+
+  .contact-card a {
+    color: #1abc9c;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .contact-card a:hover {
+    text-decoration: underline;
+  }
+
+  /* Responsive (mobile) */
+  @media (max-width: 768px) {
+    .contact-container {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
   
   <body>
 
