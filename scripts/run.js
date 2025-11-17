@@ -1,4 +1,4 @@
-fetch('trail-info.json')
+fetch('Bear Jaw Loop.json')
   .then(response => response.json())
   .then(data => {
     document.getElementById('trail-name').textContent = data.trail_name;
