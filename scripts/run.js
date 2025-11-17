@@ -47,5 +47,7 @@ function loadTrailData(jsonPath) {
     });
 }
 
-// Call the function with the path to your JSON file
-loadTrailData('scripts/Bear Jaw Loop.json');
+// Ensure the DOM is loaded before calling the function
+document.addEventListener('DOMContentLoaded', () => {
+  loadTrailData('scripts/Bear Jaw Loop.json');
+});
