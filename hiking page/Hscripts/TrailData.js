@@ -48,4 +48,4 @@ function loadTrails() {
 }
 
 // Call loadTrails when the DOM is fully loaded
-document.addEventListener('DOMContentLoaded', loadTrails);   
+document.addEventListener('DOMContentLoaded', loadTrails); 
