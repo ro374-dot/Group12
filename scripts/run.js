@@ -1,5 +1,5 @@
-function loadTrailData('scripts/Bear Jaw Loop.json') {
-  fetch('scripts/Bear Jaw Loop.json')
+function loadTrailData('scripts/Hikes.json') {
+  fetch('scripts/Hikes.json')
     .then(response => response.json())
     .then(data => {
       // Populate basic info
@@ -49,5 +49,5 @@ function loadTrailData('scripts/Bear Jaw Loop.json') {
 
 // Ensure the DOM is loaded before calling the function
 document.addEventListener('DOMContentLoaded', () => {
-  loadTrailData('scripts/Bear Jaw Loop.json');
+  loadTrailData();
 });
