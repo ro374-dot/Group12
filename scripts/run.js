@@ -1,5 +1,5 @@
-function loadTrailData('scripts/Hikes.json') {
-  fetch('scripts/Hikes.json')
+function loadTrailData(jsonPath) {
+  fetch(jsonPath)
     .then(response => response.json())
     .then(data => {
       // Populate basic info
@@ -14,7 +14,7 @@ function loadTrailData('scripts/Hikes.json') {
 
       // Populate Why Go list
       const whyGoList = document.getElementById('why-go');
-      whyGoList.innerHTML = ''; // clear previous content
+      whyGoList.innerHTML = '';
       data.why_go.forEach(item => {
         const li = document.createElement('li');
         li.textContent = item;
@@ -23,7 +23,7 @@ function loadTrailData('scripts/Hikes.json') {
 
       // Populate Recommendations list
       const recList = document.getElementById('recommendations');
-      recList.innerHTML = ''; // clear previous content
+      recList.innerHTML = '';
       data.recommendations.forEach(item => {
         const li = document.createElement('li');
         li.textContent = item;
@@ -32,7 +32,7 @@ function loadTrailData('scripts/Hikes.json') {
 
       // Populate Trail Route
       const routeDiv = document.getElementById('trail-route');
-      routeDiv.innerHTML = ''; // clear previous content
+      routeDiv.innerHTML = '';
       data.trail_route.trail_segments.forEach(segment => {
         const segmentDiv = document.createElement('div');
         segmentDiv.innerHTML = `<h4>${segment.name}</h4><p>${segment.description}</p>`;
@@ -47,7 +47,7 @@ function loadTrailData('scripts/Hikes.json') {
     });
 }
 
-// Ensure the DOM is loaded before calling the function
+// Call the function with the path to your JSON, when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
-  loadTrailData();
+  loadTrailData('scripts/Hikes.json');
 });
