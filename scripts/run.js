@@ -1,5 +1,5 @@
-function loadTrailData(jsonPath) {
-  fetch(jsonPath)
+function loadTrailData('scripts/Bear Jaw Loop.json') {
+  fetch('scripts/Bear Jaw Loop.json')
     .then(response => response.json())
     .then(data => {
       // Populate basic info
