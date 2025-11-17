@@ -31,7 +31,7 @@ function loadTrails() {
         trailDiv.className = 'trail';
 
         trailDiv.innerHTML = `
-          <h2>${trail.trail_name}</h2>
+          <h2>${index + 1}. ${trail.trail_name}</h2>
           <img src="${trail.image_url}" alt="${trail.trail_name}">
           <p><strong>Rating:</strong> ${trail.rating} / ${trail.max_rating}</p>
           <p><strong>Address:</strong> ${trail.address}</p>
