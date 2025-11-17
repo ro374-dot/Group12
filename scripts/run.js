@@ -1,8 +1,8 @@
-
-function loadTrailData('scripts/Bear Jaw Loop.json') {
-  fetch('scripts/Bear Jaw Loop.json')
+function loadTrailData(jsonPath) {
+  fetch(jsonPath)
     .then(response => response.json())
     .then(data => {
+      // Populate basic info
       document.getElementById('trail-name').textContent = data.trail_name;
       document.getElementById('location').textContent = data.location;
       document.getElementById('description').textContent = data.description;
@@ -36,7 +36,7 @@ function loadTrailData('scripts/Bear Jaw Loop.json') {
       data.trail_route.trail_segments.forEach(segment => {
         const segmentDiv = document.createElement('div');
         segmentDiv.innerHTML = `<h4>${segment.name}</h4><p>${segment.description}</p>`;
-        if(segment.features) {
+        if (segment.features) {
           segmentDiv.innerHTML += `<p><em>Features:</em> ${segment.features}</p>`;
         }
         routeDiv.appendChild(segmentDiv);
@@ -46,3 +46,6 @@ function loadTrailData('scripts/Bear Jaw Loop.json') {
       console.error('Error loading trail data:', error);
     });
 }
+
+// Call the function with the path to your JSON file
+loadTrailData('scripts/Bear Jaw Loop.json');
