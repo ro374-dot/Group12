@@ -15,16 +15,6 @@
       max-width: 100%;
       height: auto;
     }
-    #wrapper {
-      position: relative; /* For absolute positioning of squares */
-      height: 100vh; /* full viewport height */
-    }
-    .trail-square {
-      position: absolute;
-      width: 50px;
-      height: 50px;
-      border: 1px solid #333;
-    }
   </style>
 </head>
 <body>
@@ -32,17 +22,5 @@
   <div id="trails-container"></div>
   <div id="wrapper"></div>
   <script src="Hscripts/mix.js"></script>
-
-  <script>
-    // Example: Initialize loading trails into #trails-container
-    document.addEventListener('DOMContentLoaded', () => {
-      const trailsContainer = document.getElementById('trails-container');
-      // your function to load trail info here, e.g.,
-      // loadTrailDetails(trailsContainer);
-      
-      // Example: load random squares in #wrapper
-      // loadTrailsInWrapper(document.getElementById('wrapper'));
-    });
-  </script>
 </body>
 </html>
