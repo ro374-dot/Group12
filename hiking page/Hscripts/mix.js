@@ -1,47 +1,48 @@
-// Global variables
-let loadingMore = false;
-let totalContainers = 0;
-const maxContainers = 20;
+// --- Your loadTrails function ---
+function loadTrails(container) {
+  // fetch data or generate dummy data for testing
+  // For example:
+  const dummyData = [
+    {
+      name: "Trail 1",
+      rating: 4,
+      max_rating: 5,
+      address: "Somewhere",
+      description: "A nice trail",
+      photo: "https://via.placeholder.com/150"
+    }
+  ];
 
-// ... your createTrail and loadTrails functions ...
+  // populate the container
+  dummyData.forEach(trail => {
+    const trailDiv = document.createElement('div');
+    trailDiv.className = 'trail';
 
-function createNewContainer() {
-    if (totalContainers >= maxContainers) return;
+    trailDiv.innerHTML = `
+      <h2>${trail.name}</h2>
+      <img src="${trail.photo}" alt="${trail.name}">
+      <p><strong>Rating:</strong> ${trail.rating} / ${trail.max_rating}</p>
+      <p><strong>Address:</strong> ${trail.address}</p>
+      <p>${trail.description}</p>
+    `;
 
-    const container = document.createElement("div");
-    container.className = "trail-section";
-
-    const trailContentDiv = document.createElement('div');
-    trailContentDiv.className = 'trail-content';
-
-    container.appendChild(trailContentDiv);
-    document.getElementById("wrapper").appendChild(container);
-
-    loadTrails(trailContentDiv);
-    totalContainers++;
+    container.appendChild(trailDiv);
+  });
 }
 
-// Initial load
-window.addEventListener("load", () => {
-    for (let i = 0; i < 10 && totalContainers < maxContainers; i++) {
-        createNewContainer();
-    }
-});
+// --- Your createNewContainer function ---
+function createNewContainer() {
+  if (totalContainers >= maxContainers) return;
 
-// Infinite scroll
-window.addEventListener("scroll", () => {
-    if (!loadingMore && totalContainers < maxContainers) {
-        let scrolledTo = window.scrollY + window.innerHeight;
-        let pageHeight = document.documentElement.scrollHeight;
+  const container = document.createElement("div");
+  container.className = "trail-section";
 
-        if (scrolledTo >= pageHeight - 1) {
-            loadingMore = true;
-            setTimeout(() => {
-                for (let i = 0; i < 5 && totalContainers < maxContainers; i++) {
-                    createNewContainer();
-                }
-                loadingMore = false;
-            }, 250);
-        }
-    }
-});
+  const trailContentDiv = document.createElement('div');
+  trailContentDiv.className = 'trail-content';
+
+  container.appendChild(trailContentDiv);
+  document.getElementById("wrapper").appendChild(container);
+
+  loadTrails(trailContentDiv);
+  totalContainers++;
+}
