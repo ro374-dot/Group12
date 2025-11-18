@@ -4,7 +4,7 @@
 let allTrails = [];
 let currentIndex = 0; // To track which trails have been loaded
 const maxTrailsToLoad = 20; // Stop loading after 20 trails
-
+let loadingMore = false;
 // Fetch all trails once
 fetch('api/trails.json')
   .then(response => response.json())
