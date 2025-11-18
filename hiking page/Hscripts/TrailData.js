@@ -12,7 +12,7 @@ function createTrail(name, rating, maxRating, address, description, imageUrl) {
 
 // Function to fetch and display trails
 function loadTrails() {
-  fetch('api/trails')
+  fetch('api/trails.json')
     .then(response =&gt; response.json())
     .then(data =&gt; {
       const trails = data.map(trail =&gt; createTrail(
