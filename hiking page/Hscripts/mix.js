@@ -58,3 +58,9 @@ function getRandomColor() {
     const b = Math.floor(Math.random() * 256);
     return `rgb(${r}, ${g}, ${b})`;
 }
+// ... your getRandomPosition, loadTrails, getRandomColor functions ...
+
+window.addEventListener('DOMContentLoaded', () => {
+  const container = document.getElementById('wrapper'); // ensure this matches your HTML
+  loadTrails(container);
+});
