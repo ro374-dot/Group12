@@ -1,12 +1,12 @@
 // Function to create a trail object
 function createTrail(name, rating, maxRating, address, description, imageUrl) {
   return {
-    trail_name: name,
+    name: name,
     rating: rating,
     max_rating: maxRating,
     address: address,
     description: description,
-    image_url: imageUrl
+    photo: imageUrl
   };
 }
 
@@ -16,12 +16,12 @@ function loadTrails() {
     .then(response => response.json())
     .then(data => {
       const trails = data.map(trail => createTrail(
-        trail.trail_name,
+        trail.name,
         trail.rating,
         trail.max_rating,
         trail.address,
         trail.description,
-        trail.image_url
+        trail.photo
       ));
 
       const container = document.getElementById('trails-container');
@@ -31,8 +31,8 @@ function loadTrails() {
         trailDiv.className = 'trail';
 
         trailDiv.innerHTML = `
-          <h2>${trail.trail_name}</h2>
-          <img src="${trail.image_url}" alt="${trail.trail_name}">
+          <h2>${trail.name}</h2>
+          <img src="${trail.photo}" alt="${trail.name}">
           <p><strong>Rating:</strong> ${trail.rating} / ${trail.max_rating}</p>
           <p><strong>Address:</strong> ${trail.address}</p>
           <p>${trail.description}</p>
