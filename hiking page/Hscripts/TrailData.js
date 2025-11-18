@@ -1,12 +1,12 @@
 // Function to create a trail object
 function createTrail(name, rating, maxRating, address, description, imageUrl) {
   return {
-    trail_name: name,
+    name: name,
     rating: rating,
     max_rating: maxRating,
     address: address,
     description: description,
-    image_url: imageUrl
+    photo: imageUrl
   };
 }
 
