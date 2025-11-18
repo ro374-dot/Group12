@@ -5,16 +5,24 @@ let allTrails = [];
 let currentIndex = 0; // To track which trails have been loaded
 const maxTrailsToLoad = 20; // Stop loading after 20 trails
 let loadingMore = false;
+// Function to shuffle array
+function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
 // Fetch all trails once
 fetch('api/trails.json')
   .then(response => response.json())
   .then(data => {
-    allTrails = data; // Store all trails
+    allTrails = data;
+    shuffle(allTrails); // Randomize order without repeats
     initTrailLoading(); // Load initial trails
   })
   .catch(error => {
     console.error('Error fetching trail data:', error);
-    // Handle error if needed
   });
 
 // Function to create a trail object
