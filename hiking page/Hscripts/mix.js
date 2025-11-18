@@ -1,7 +1,21 @@
 // trail-loader.js
 
 // Global variables
-let loadingMore = false;
+let allTrails = [];
+let currentIndex = 0; // To track which trails have been loaded
+const maxTrailsToLoad = 20; // Stop loading after 20 trails
+
+// Fetch all trails once
+fetch('api/trails.json')
+  .then(response => response.json())
+  .then(data => {
+    allTrails = data; // Store all trails
+    initTrailLoading(); // Load initial trails
+  })
+  .catch(error => {
+    console.error('Error fetching trail data:', error);
+    // Handle error if needed
+  });
 
 // Function to create a trail object
 function createTrail(name, rating, maxRating, address, description, imageUrl) {
@@ -15,45 +29,14 @@ function createTrail(name, rating, maxRating, address, description, imageUrl) {
     };
 }
 
-// Function to load trail data into a specific container
-function loadTrails(container) {
-    fetch('api/trails.json')
-        .then(response => response.json())
-        .then(data => {
-            const trails = data.map(trail => createTrail(
-                trail.trail_name,
-                trail.rating,
-                trail.max_rating,
-                trail.address,
-                trail.description,
-                trail.image_url
-            ));
-            trails.forEach(trail => {
-                const trailDiv = document.createElement('div');
-                trailDiv.className = 'trail';
+// Function to load next batch of trails
+function loadNextTrails() {
+    if (currentIndex >= allTrails.length || currentIndex >= maxTrailsToLoad) {
+        return; // No more trails to load
+    }
 
-                trailDiv.innerHTML = `
-                    <h2>${trail.trail_name}</h2>
-                    <img src="${trail.image_url}" alt="${trail.trail_name}">
-                    <p><strong>Rating:</strong> ${trail.rating} / ${trail.max_rating}</p>
-                    <p><strong>Address:</strong> ${trail.address}</p>
-                    <p>${trail.description}</p>
-                `;
-                container.appendChild(trailDiv);
-            });
-        })
-        .catch(error => {
-            console.error('Error fetching trail data:', error);
-            const errorMsg = document.createElement('p');
-            errorMsg.innerText = 'Failed to load trail data.';
-            container.appendChild(errorMsg);
-        });
-}
-
-// Function to create a new container and load trail data
-function createNewContainer() {
-    const container = document.createElement("div");
-    container.className = "trail-section";
+    const container = document.createElement('div');
+    container.className = 'trail-section';
 
     const trailContentDiv = document.createElement('div');
     trailContentDiv.className = 'trail-content';
@@ -61,27 +44,56 @@ function createNewContainer() {
     container.appendChild(trailContentDiv);
     document.getElementById("wrapper").appendChild(container);
 
-    loadTrails(trailContentDiv);
+    // Load next set of trails
+    const batchSize = 5; // Number of trails per scroll
+    const startIndex = currentIndex;
+    const endIndex = Math.min(currentIndex + batchSize, allTrails.length, maxTrailsToLoad);
+
+    for (let i = startIndex; i < endIndex; i++) {
+        const trail = allTrails[i];
+        const trailObj = createTrail(
+            trail.trail_name,
+            trail.rating,
+            trail.max_rating,
+            trail.address,
+            trail.description,
+            trail.image_url
+        );
+        const trailDiv = document.createElement('div');
+        trailDiv.className = 'trail';
+
+        trailDiv.innerHTML = `
+            <h2>${trailObj.trail_name}</h2>
+            <img src="${trailObj.image_url}" alt="${trailObj.trail_name}">
+            <p><strong>Rating:</strong> ${trailObj.rating} / ${trailObj.max_rating}</p>
+            <p><strong>Address:</strong> ${trailObj.address}</p>
+            <p>${trailObj.description}</p>
+        `;
+        trailContentDiv.appendChild(trailDiv);
+    }
+
+    currentIndex = endIndex; // Update index
 }
 
-// Initialize initial containers on page load
+// Initialize loading of initial trails
 function initTrailLoading() {
-    for (let i = 0; i < 10; i++) {
-        createNewContainer();
-    }
+    // Load a few trails initially
+    loadNextTrails();
 }
 
 // Infinite scroll event handler
 function handleScroll() {
     if (!loadingMore) {
-        let scrolledTo = window.scrollY + window.innerHeight;
-        let pageHeight = document.documentElement.scrollHeight;
+        const scrolledTo = window.scrollY + window.innerHeight;
+        const pageHeight = document.documentElement.scrollHeight;
 
         if (scrolledTo >= pageHeight - 1) {
             loadingMore = true;
             setTimeout(() => {
-                for (let i = 0; i < 5; i++) {
-                    createNewContainer();
+                loadNextTrails();
+                // Stop loading more after 20 trails
+                if (currentIndex >= maxTrailsToLoad) {
+                    window.removeEventListener("scroll", handleScroll);
                 }
                 loadingMore = false;
             }, 250);
@@ -89,9 +101,7 @@ function handleScroll() {
     }
 }
 
-// Attach event listeners
+// Attach event listener
 window.addEventListener("load", () => {
-    initTrailLoading();
+    window.addEventListener("scroll", handleScroll);
 });
-
-window.addEventListener("scroll", handleScroll);
