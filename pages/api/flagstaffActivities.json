@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Lowell Observatory",
+    "rating": 4.7,
+    "address": "1400 W Mars Hill Rd, Flagstaff, AZ 86001, USA",
+    "description": "Founded in 1894, this hilltop center with giant telescopes offers tours, solar viewing & stargazing.",
+    "photo": "allImages/Activities/lowell_observatory.jpg"
+  },
+  {
+    "name": "Snowbowl Scenic Gondola",
+    "rating": 4.7,
+    "address": "9300 N Snow Bowl Rd, Flagstaff, AZ 86001, USA",
+    "description": "No description available.",
+    "photo": "allImages/Activities/snowbowl_scenic_gondola.jpg"
+  },
+  {
+    "name": "Downtown Flagstaff",
+    "rating": 4.6,
+    "address": "6 E Aspen Ave # 200, Flagstaff, AZ 86001, USA",
+    "description": "Headquarters for non-profit organization preserving historic district & organizing events.",
+    "photo": "allImages/Activities/downtown_flagstaff.jpg"
+  },
+  {
+    "name": "Flagstaff Extreme Adventure Course",
+    "rating": 4.8,
+    "address": "Fort Tuthill County Park, 2446 Ft Tuthill Lp, Flagstaff, AZ 86005, USA",
+    "description": "Facility at Fort Tuthill County Park offering treetop suspended obstacle courses for kids & adults.",
+    "photo": "allImages/Activities/flagstaff_extreme_adventure_course.jpg"
+  },
+  {
+    "name": "Museum of Northern Arizona",
+    "rating": 4.7,
+    "address": "3101 N Fort Valley Rd, Flagstaff, AZ 86001, USA",
+    "description": "Museum chronicling the Colorado Plateau from 15,000 B.C. to the present via exhibits & artifacts.",
+    "photo": "allImages/Activities/museum_of_northern_arizona.jpg"
+  },
+  {
+    "name": "Walnut Canyon National Monument",
+    "rating": 4.8,
+    "address": "Arizona, USA",
+    "description": "Expansive, curved canyon featuring trails & stairs past ruins of Sinagua cliff dwellings.",
+    "photo": "allImages/Activities/walnut_canyon_national_monument.jpg"
+  },
+  {
+    "name": "Sunset Crater Volcano National Monument",
+    "rating": 4.8,
+    "address": "6082 Sunset Crater Road, Flagstaff, AZ 86004, USA",
+    "description": "Landmark volcano that last erupted around 1085 & is now protected as a national monument.",
+    "photo": "allImages/Activities/sunset_crater_volcano_national_monument.jpg"
+  },
+  {
+    "name": "Wupatki National Monument",
+    "rating": 4.8,
+    "address": "Arizona, USA",
+    "description": "Protected area with self-guided tours & trails for visitors to view ruins of 5 prehistoric pueblos.",
+    "photo": "allImages/Activities/wupatki_national_monument.jpg"
+  },
+  {
+    "name": "Buffalo Park",
+    "rating": 4.8,
+    "address": "2400 N Gemini Rd, Flagstaff, AZ 86004, USA",
+    "description": "215-acre park offers a 2-mile hiking loop trail, picnicking space, wildlife & scenic mountain views.",
+    "photo": "allImages/Activities/buffalo_park.jpg"
+  },
+  {
+    "name": "The Arboretum at Flagstaff",
+    "rating": 4.3,
+    "address": "4001 S Woody Mountain Rd, Flagstaff, AZ 86005, USA",
+    "description": "Conservation area for native high-elevation plants, with views of wildlife & a butterfly garden.",
+    "photo": "allImages/Activities/the_arboretum_at_flagstaff.jpg"
+  },
+  {
+    "name": "Mars Hill Trail",
+    "rating": 4.7,
+    "address": "Flagstaff, AZ 86001, USA",
+    "description": "No description available.",
+    "photo": "allImages/Activities/mars_hill_trail.jpg"
+  },
+  {
+    "name": "Mt Elden Lookout Trail",
+    "rating": 4.8,
+    "address": "4870, 5098 US-89, Flagstaff, AZ 86004, USA",
+    "description": "This trail leads up to the summit of Mt. Elden & offers views of the city & surrounding area.",
+    "photo": "allImages/Activities/mt_elden_lookout_trail.jpg"
+  },
+  {
+    "name": "Lava River Cave",
+    "rating": 4.8,
+    "address": "171B Forest Rd, Flagstaff, AZ 86001, USA",
+    "description": "Mile-long underground lava tunnel, with a rugged path for hiking & exploring.",
+    "photo": "allImages/Activities/lava_river_cave.jpg"
+  },
+  {
+    "name": "Fort Tuthill Bike Park",
+    "rating": 4.9,
+    "address": "Flagstaff, AZ 86001, USA",
+    "description": "No description available.",
+    "photo": "allImages/Activities/fort_tuthill_bike_park.jpg"
+  },
+  {
+    "name": "Flagstaff Climbing",
+    "rating": 4.4,
+    "address": "205 S San Francisco St, Flagstaff, AZ 86001, USA",
+    "description": "No description available.",
+    "photo": "allImages/Activities/flagstaff_climbing.jpg"
+  },
+  {
+    "name": "Thorpe Disc Golf Course",
+    "rating": 4.4,
+    "address": "245 N Thorpe Rd, Flagstaff, AZ 86001, USA",
+    "description": "No description available.",
+    "photo": "allImages/Activities/thorpe_disc_golf_course.jpg"
+  },
+  {
+    "name": "Cinder Hills",
+    "rating": 4.7,
+    "address": "Cinder Hills, Arizona 86004, USA",
+    "description": "No description available.",
+    "photo": "allImages/Activities/cinder_hills.jpg"
+  },
+  {
+    "name": "Campbell Mesa Loop Trails",
+    "rating": 4.8,
+    "address": "Forest Service Rd 790, Flagstaff, AZ 86004, USA",
+    "description": "No description available.",
+    "photo": "allImages/Activities/campbell_mesa_loop_trails.jpg"
+  },
+  {
+    "name": "United Escapes of America - Flagstaff",
+    "rating": 4.2,
+    "address": "1800 S Milton Rd #13, Flagstaff, AZ 86001, USA",
+    "description": "No description available.",
+    "photo": "allImages/Activities/united_escapes_of_america_flagstaff.jpg"
+  },
+  {
+    "name": "Stargazing Arizona",
+    "rating": 4.2,
+    "address": "460 Harmony Dr, Sedona, AZ 86336, USA",
+    "description": "No description available.",
+    "photo": "allImages/Activities/stargazing_arizona.jpg"
+  }
+]

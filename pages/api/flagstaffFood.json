@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Fat Olives",
+    "rating": 4.6,
+    "address": "2308 E Rte 66, Flagstaff, AZ 86004, USA",
+    "description": "Buzzy eatery offering wood-fired Neapolitan-style pies with gourmet toppings, plus wine on tap.",
+    "photo": "allImages/Food/fat_olives.jpg"
+  },
+  {
+    "name": "Mother Road Brewing Company",
+    "rating": 4.7,
+    "address": "7 S Mikes Pike, Flagstaff, AZ 86001, USA",
+    "description": "No description available.",
+    "photo": "allImages/Food/mother_road_brewing_company.jpg"
+  },
+  {
+    "name": "Agave Méxican Restaurant",
+    "rating": 4.2,
+    "address": "1580 Rte 66, Flagstaff, AZ 86001, USA",
+    "description": "Colorful painted tables & chairs fill this laid-back eatery & cantina for traditional Mexican fare.",
+    "photo": "allImages/Food/agave_m_xican_restaurant.jpg"
+  },
+  {
+    "name": "Josephine's Restaurant",
+    "rating": 4.6,
+    "address": "503 N Humphreys St, Flagstaff, AZ 86001, USA",
+    "description": "New American bistro in a historic restored bungalow, complete with front porch & stone fireplace.",
+    "photo": "allImages/Food/josephine_s_restaurant.jpg"
+  },
+  {
+    "name": "The Toasted Owl Cafe",
+    "rating": 4.4,
+    "address": "12 S Mikes Pike, Flagstaff, AZ 86001, USA",
+    "description": "Breakfast & lunch spot with funky decor & a big patio offering updated American dishes & a full bar.",
+    "photo": "allImages/Food/the_toasted_owl_cafe.jpg"
+  },
+  {
+    "name": "Diablo Burger",
+    "rating": 4.3,
+    "address": "120 N Leroux St, Flagstaff, AZ 86001, USA",
+    "description": "Burger joint known for using local ingredients & English muffins as buns in a modern, casual space.",
+    "photo": "allImages/Food/diablo_burger.jpg"
+  },
+  {
+    "name": "Pizzicletta",
+    "rating": 4.6,
+    "address": "203 W Phoenix Ave, Flagstaff, AZ 86001, USA",
+    "description": "Wood-fired Neapolitan-style pizzas cook in 90 seconds at this intimate Italian destination.",
+    "photo": "allImages/Food/pizzicletta.jpg"
+  },
+  {
+    "name": "Salsa Brava",
+    "rating": 4.3,
+    "address": "2220 E Rte 66, Flagstaff, AZ 86004, USA",
+    "description": "Vibrant joint with a salsa bar & ample plates of familiar Mexican fare, plus creative margaritas.",
+    "photo": "allImages/Food/salsa_brava.jpg"
+  },
+  {
+    "name": "The Oakmont",
+    "rating": 4.4,
+    "address": "2380 N Oakmont Dr, Flagstaff, AZ 86004, USA",
+    "description": "Spacious, airy & modern-industrial outpost serving American comfort cuisine & cocktails.",
+    "photo": "allImages/Food/the_oakmont.jpg"
+  },
+  {
+    "name": "The Northern Pines Restaurant",
+    "rating": 4.3,
+    "address": "2200 E Butler Ave, Flagstaff, AZ 86004, USA",
+    "description": "Relaxed go-to for all-day American fare, including steaks & sandwiches, plus lots of beers on tap.",
+    "photo": "allImages/Food/the_northern_pines_restaurant.jpg"
+  },
+  {
+    "name": "Taverna Modern Mediterranean",
+    "rating": 4.3,
+    "address": "2420 S Woodlands Village Blvd, Flagstaff, AZ 86001, USA",
+    "description": "Festive restaurant bringing together Greek standards, spirits & a welcoming atmosphere.",
+    "photo": "allImages/Food/taverna_modern_mediterranean.jpg"
+  },
+  {
+    "name": "Pita Jungle",
+    "rating": 4.2,
+    "address": "320 Regent St Suite 312, Flagstaff, AZ 86001, USA",
+    "description": "Chain for health-oriented Mediterranean dishes, including lots of veggie options, in sleek environs.",
+    "photo": "allImages/Food/pita_jungle.jpg"
+  },
+  {
+    "name": "Dante's Fire",
+    "rating": 4.3,
+    "address": "2526 E Grant Rd, Tucson, AZ 85716, USA",
+    "description": "Informal gastropub & cocktail bar with late hours serving locally sourced New American cuisine.",
+    "photo": "allImages/Food/dante_s_fire.jpg"
+  },
+  {
+    "name": "Shift Kitchen & Bar",
+    "rating": 4.5,
+    "address": "107 N San Francisco St #2, Flagstaff, AZ 86001, USA",
+    "description": "Bright, casual locale showcasing a seasonal menu of artful American small plates & craft cocktails.",
+    "photo": "allImages/Food/shift_kitchen_bar.jpg"
+  },
+  {
+    "name": "Tacos Los Altos - West Side",
+    "rating": 4.3,
+    "address": "2500 S Woodlands Village Blvd #1, Flagstaff, AZ 86001, USA",
+    "description": "Casual option for south-of-the-border & Tex-Mex favorites ordered at a counter plus some sweets.",
+    "photo": "allImages/Food/tacos_los_altos_west_side.jpg"
+  },
+  {
+    "name": "The Annex Cocktail Lounge",
+    "rating": 4.6,
+    "address": "50 S San Francisco St, Flagstaff, AZ 86001, USA",
+    "description": "Contemporary lounge with a speakeasy vibe offering classic cocktails & a rustic courtyard.",
+    "photo": "allImages/Food/the_annex_cocktail_lounge.jpg"
+  },
+  {
+    "name": "Lotus Lounge",
+    "rating": 4.1,
+    "address": "106 N San Francisco St, Flagstaff, AZ 86001, USA",
+    "description": "No description available.",
+    "photo": "allImages/Food/lotus_lounge.jpg"
+  },
+  {
+    "name": "SoSoBa",
+    "rating": 4.1,
+    "address": "12 Historic Rte 66 #104, Flagstaff, AZ 86001, USA",
+    "description": "No description available.",
+    "photo": "allImages/Food/sosoba.jpg"
+  },
+  {
+    "name": "Oregano's",
+    "rating": 4.4,
+    "address": "1061 S Plaza Wy, Flagstaff, AZ 86001, USA",
+    "description": "Family-friendly Italian chain specializing in Chicago-style pizzas & sandwiches.",
+    "photo": "allImages/Food/oregano_s.jpg"
+  },
+  {
+    "name": "Brandy's Restaurant & Bakery",
+    "rating": 4.4,
+    "address": "1500 E Cedar Ave #40, Flagstaff, AZ 86004, USA",
+    "description": "Quirky cafe & art gallery serving up inventive breakfast & lunch as well as gourmet coffee drinks.",
+    "photo": "allImages/Food/brandy_s_restaurant_bakery.jpg"
+  }
+]
