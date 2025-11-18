@@ -4,16 +4,16 @@
     "rating": 5.0,
     "max_rating": 5,
     "address": "Flagstaff, AZ 86001",
-    "description": "Hiking trail thats great for biking and has amazing scenery. ",
-    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyd9S3W-19osyj9olymtUO_ZPkaB5XvKR6O38Z6PN2tZrT4mr9UK19VVZwpshYa4_FX51zoXE2lbCtzu3so6m3rWWm6TWzLjPlVtl8d2AQ4Ir4xK3Pc5VCcxkFd79x_tGsFcBMk=w408-h306-k-no"
+    "description": "Hiking trail thats great for biking and has amazing scenery.",
+    "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AWn5SU7F-CT6J399OedYgRwtavaq-3wdTMgOQbdK6GCdHBVqRZpH6ZE5mN_igQr_S9-xEG927jWM5lkb5XXfWjtBV34-D5vVezdbEw6Kf2uT8t_nograggRBspJMqSPpflhMBjSiY0O9b3ClUruWhL2gYOdMv0lAM7f_GsUDKH-zKj7jLL0GbcPqgsv5QYwWv-AedFARAS0RLzqlYS-Zc92LxV_X8ehW7acf7CCkZuz_UG1CRFogo9Z6vvjq3n2C8t9fjXV3PXdW4t-Ju4Ste6-yDuAkkIpR0DcfvtgVSncnfLIqBdzdTSqOtKIXYBcNxi75wvBgTYw7lIXSmtqywP4WbY3rilIx--ILaFDjPWIH0TD3rev6DooAML49en5yPwLKJhGTMSIxiyzlufoiBAXESUJ17cd9NDXy876gI9d1bU-DVi4&key=AIzaSyABy1ypkUJdot9KquA2UlW57Ob70RkZWxc"
   },
   {
     "trail_name": "Kachina Peaks Wilderness",
     "rating": 4.9,
     "max_rating": 5,
     "address": "Doyle Saddle, Flagstaff, AZ 86001",
-    "description": "Beautiful forest! Lots of massive trees and Aspen trees. ",
-    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyO_QplkKCxQZo7ikKNwJwThdgqextVkv0TMjejL-eMWaAb3ZVapEUSNSRn6oR3pCVzFVI-cblS6leiBu4WQn8akZxsZdUmbEYjStXHrJHQdCBoObSNB4687PYX0NBLHJHRiPylOQ=w408-h306-k-no"
+    "description": "Beautiful forest! Lots of massive trees and Aspen trees.",
+    "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AWn5SU5rZF_UKOFCSMTpx0i-SJtGoxj1u6-E0ecugtAeBQB7HxIKunKB7ktiPHaobnLhIbOKNVRJ30RenYzHYo29aixBLXJhuqHL3Y9lgRLc05Gs_fXeXKVdzFiaD5P0-sIMKNLSaGzE6Hv_oDmU-TDo9ulGJsU05wJ9HQwDYg6dd5NC8MJfGU78jrVEk7KH-1tQtjpjA_ztjJ_3FLIoSKOvrWTfWv7zsIxDcsu_ngYhRQcj9IwxDWHP3WDTkyKgZejHwxtqg6BIUZS039BRYrAtccRg0odtxRjDF199RBr7pc2UcgcQYTvPcV7xZYFijUYKSHRQPPFvmSOQJi0ClJGsCBKIuwaw8H1C4wEdd2o_z0fFd9WRuSwr0Z-SYm_32V-a1BD_fwA_rHMXWU9ikBkCqK2KVNRBXDznnGlUUsScg7GtTdir&key=AIzaSyABy1ypkUJdot9KquA2UlW57Ob70RkZWxc"
   },
   {
     "trail_name": "Abineau & Bear Jaw Loop Trail",
@@ -21,6 +21,142 @@
     "max_rating": 5,
     "address": "Flagstaff, AZ 86001",
     "description": "Beautiful area with dense aspen groves no matter how you slice it.",
-    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzK5lZooYnPxmIfWB1ZdE2D28mh7m8dYil5T6j0iROcGJ18ECfAdeRXM0mgP4iX_59dBseNu6UFHyhFAYtO45E80tegTQKcuGlhVB1opO7QNk2LXrP9ZpB-C6mMOTQU_UdVmn6DWg=w426-h240-k-no"
+    "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AWn5SU6fJYEVsJR5ZgC11C89Oh4EstRpmdcl5NvMSoTczWDRNNC71-c8ZofX9pdll4pBjba5pJVbdIPRqrEnALVh3JY1qcfhUCOh-2NyllfmqIkHILlucl4nLXi2Usnq5wvksPTyhM2pO0qcb3o4EU_4rwBboSCQay-dTQ_s8xT6x65EBaMCL410o-eXRRcNZxQ5AgbkM35RNOr-BedcTd87luRR7TeGvYqgd-hwFkE2lD70PGCCYDEMiChnxFwof_rNZ6k6dGRafBefDfxb19jTsiy59paO16kgpYO-1Td8fw4g4h0tbNRbE21aEC45tIuA6HtJI_V0ME8zNXbx00VoLqCMgpAaL2xVl9V3MlO13zvL2Igu692S1bFAC-WP3WAyDa18pPh0G6E6lg8A8cqA_xDupRY7LeYGbkEFV35NY-7gKW8T&key=AIzaSyABy1ypkUJdot9KquA2UlW57Ob70RkZWxc"
+  },
+  {
+    "trail_name": "Lava Flow Trail",
+    "rating": 4.8,
+    "max_rating": 5,
+    "address": "Loop Rd, Flagstaff, AZ 86004, USA",
+    "description": "No description available ",
+    "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AWn5SU7gHQU9Uom1oVTreRKOC6Q5ZG-eiGMGa3SjxyXVRH_OceIRNUCh2rWpfXWCuMROZFrKHROu1gRrUantAORqrtLz-u57u00Oy-S78HWfv3_akqjmVfnCPQkSiyDSHk1YOehKPKpObQd7_3JT9LlMakgEFPzT0XeyMugAwePTblJmwa1puNrvoiDCE-u_gSq2rH3jNOEBHd43NRagZvuTaL05j0huk7ZJV0aeVJgFJnnPpQco2udAdm-SuS5GyMgYPaD1xniP-OFgq4JwWyPBwIuW80EoCgQezy5HpUm8kblBsM-L_GqAKgdfyTNLsu1oZV69zJVteVceTDbAStaefIxXXEkMVnxNbsIXf76tDL8TnC-lb10VSWXYjuokgPhNrSjM9I3xkI1zASMVPuNawVBEllg5rs5FT6JdeQUE8iI4wiKS&key=AIzaSyABy1ypkUJdot9KquA2UlW57Ob70RkZWxc"
+  },
+  {
+    "trail_name": "Lava River Cave",
+    "rating": 4.8,
+    "max_rating": 5,
+    "address": "171B Forest Rd, Flagstaff, AZ 86001, USA",
+    "description": "Mile-long underground lava tunnel, with a rugged path for hiking & exploring.",
+    "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AWn5SU5Zlz6QShI8xU6W_wWooJrX9u7HCL2zen3DV3cFjOjyvI1LiUdN1JrHaLwCGpOFD9NgybAil8qpJxv3jL9PROPDreZK0oh4V2vptHcFKoKp53KNykg6wsiS6TBQpS7KXOI8TCgOMyxA9QoXQ2PXkvurQ1pQMPLoZO_5gGpxD_Nq-EOQzyEZkfSLuy4n4BvzgK_mEm6iwOhVSJiBgR-laYyIQGxyr-qtU1TozITO5A90eM8x6FFavbvOWI03ZxiJA4nOwIuiAYnG_aolLIunoBCg9QjpsxdghBUSXQbgDxWDo9BgTeSODsaZRZ2KGx6nU8jzU3ZIM1F-NVGivVhsL1cUYN2ZN3KeKDFGIzy9NhK4x8QqaKo_YYwlc2R6w4lxUOfOkPbizAsX5EmpKGpw51yA7TVsuRUOInA_2G5cENK68WfdLvsRE04BeP1kZ6Yn&key=AIzaSyABy1ypkUJdot9KquA2UlW57Ob70RkZWxc"
+  },
+  {
+    "trail_name": "Kachina Trail",
+    "rating": 4.8,
+    "max_rating": 5,
+    "address": "N Snow Bowl Rd, Flagstaff, AZ 86001, USA",
+    "description": "No description available.",
+    "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AWn5SU4GGB8yMTQXEHha83IDuoZE5Pd9vmaZjqzK_BYCOHuEvmfbQbF6LhstqfU0nmjydUTaqkMzttFIixxDYRNpA3wqT6pPKV7Xg72fil1bJs0l0CxQ019hTVTOU2hy4kxVp6GpDdUcTNdgSYS1K36UmNPV5wrBwUu0Bf-KysWPYp7t6IKNszOz09MmQ5ou5hny2cJdxj_6JBeqLLoCk7yM7Kbimvw3gA3e6ZZbGHdS5gjPFyOtpF0ygGL5XFgApJVHGQehmbBEhztxauxWDoVDSOiHRTXlIKzw43p3jQ8rWReBjSlKHmRBZStRhTRPLiIKWKHi9dpi8uzA4MafOru_B07xIB2mr7BSpUlp-3SPkdLoilvI6yLRdHFo8kK-WgxpVuMy1nMXyBHSrzdYYBKGT4MFdIqSp8oqPM9i4cSgJ-8fDq-_FczJUP2NrXeTorPQ&key=AIzaSyABy1ypkUJdot9KquA2UlW57Ob70RkZWxc"
+  },
+  {
+    "trail_name": "Aspen Nature Loop",
+    "rating": 4.8,
+    "max_rating": 5,
+    "address": "Arizona 86001, Humphrey's Peak Trail, Flagstaff, AZ 86001, USA",
+    "description": "No description available.",
+    "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AWn5SU4dMk8oydu99R8bjq2uHHGvYy2omqgZaKY1-0z-nOpsPUGSNvhi5iqNL5kq7Qf9i-AZ2k2esEn7yfY_aKo62pkxzqLq4HSgfzfeioIvLEEDKHjLt_FWSUqYuOINaTTgUk2IgWua__43qQXyik3H6tZdxPPSDJfvhEYX5VrRMC9yFF-gEOjtPR3xEVxHi-PFNJo5z4mJ6tXB2066Pfth96Bni-G7MTkJBfTqepIIq8hMWlESdg0Bm4XUKzbiJdWY6S5MuRcC3zaUTQ_OCKuSlFEjfBR8UzfvfJ_fZuF23qYX-ffEuDsBNcDz6KfGQ9TeHVox-tQatvuzaNUAi5Y22EBJkJ97RsPOKiB3CBM4aeOY59N7j-dVXKuISicC7Kbp8yU2PsceKjyAsH1-fPIyIzVRGUweOIDShTvRyc4A0iJwbsfJ_g_cnQxUgkJXaw&key=AIzaSyABy1ypkUJdot9KquA2UlW57Ob70RkZWxc"
+  },
+  {
+    "trail_name": "Oak Creek Vista",
+    "rating": 4.8,
+    "max_rating": 5,
+    "address": "State, AZ-89A, Flagstaff, AZ 86001, USA",
+    "description": "No description available.",
+    "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AWn5SU54TcAt6p11FS_6YcTNXZ7OwS9KUOZ0YV8zAydaT2AgnOj6Vj8ApPNsGNPW0RTYQzVNg8ow_ggPs2NO7LFu2muSjAdet4jSA7MtpI8yn2wPIlUk61FJ8lUyMQGkrtVG0tBTxC2zuKKAnQ5H3I9FbwIjeXE23F4xL5JKCOqaK46UGjZR9EpfP47bTV4Oy9t3coXzVzcqmbXz6YBtaK9wvB2s_gWhMsJBmEs9R24ypUFbK-Cj--gJ-nkG5Hho8UTJEBmLxngwVMn_3kyRjSAubXfVwyg27m6r1z1swgRYGMrz57v4WD9_aOv8-Lg2TocKF_I41_7yEMQHliyffwFSyzcJ94_s65zlhlEuDD8DoToJXWbEjw6ayPCPc7uAYGh5plP2zotWXEufT1tqG8OzFe3Pq28BLzVaUrhnRQ8tCHO-ZQ&key=AIzaSyABy1ypkUJdot9KquA2UlW57Ob70RkZWxc"
+  },
+  {
+    "trail_name": "Island Trail",
+    "rating": 4.8,
+    "max_rating": 5,
+    "address": "3 Walnut Canyon Rd, Flagstaff, AZ 86004, USA",
+    "description": "No description available.",
+    "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AWn5SU7O5I7YMhh1Zqb-wza3fBx7RjmpwLLC6FLr47urDbqdZYNtARvwwzqyNwTN2ln5qT90-wsWwCybAmbWJICd22Rp-0MaJe47kRRPVMDyBBFZ1g8V4dm_HT13XjcY4wSxkXlcD3DmBMJExdgJA_meu-8eU6Ia7pUAuzMsPhIFf6N5Nx1tB0jWeGNNVwwQRJ3iRpS1Z0WgIhOAnWzwEIEVMXZbiFpmqlb0HqzFG8b0yaNEEA4kHxIWttR4JNMVPkNm63VBo8e16dwQlmdSp0n2YgZGfc-rIgd8OY49Zr558rEpB5qXC8IfRG2NFXR1jan6xrz5Uh4dqE9_roHSWuTuB1l5gjbs5wtF6oVc18qXGdublnRDlXAlhbGpfbt4W2h76zZlmPM5ziEuS5dYvez7c5h4dUkPDStosUT9zS1nbRHrhNI&key=AIzaSyABy1ypkUJdot9KquA2UlW57Ob70RkZWxc"
+  },
+  {
+    "trail_name": "Sunset Crater Volcano National Monument",
+    "rating": 4.8,
+    "max_rating": 5,
+    "address": "6082 Sunset Crater Road, Flagstaff, AZ 86004, USA",
+    "description": "Landmark volcano that last erupted around 1085 & is now protected as a national monument.",
+    "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AWn5SU7Vl4DRUoZDHzr80w79ppsZzoEPQfCgKnlwglPP2mqluDMgds-tlDNJHTY6dZ6Dearcyf-2s8zQBsxTX0kdEfTe5xGFP6D_ae39dudDcA_nDuWXSj1d_8JajvhFJUqlW3bckSCGLDgUZkxrizYgyoD0wD6pJCsG_SSu7dLhN1TpBW0ZhPCx-Ank-ybOrZQaRpojrrd3k2HhXIZ5ofBi67RFHEMPR4rlOi8seYKNRR9NsGIXUOGsYFu_WtQmU68elfNoOJyFEDqXR_p-XrJYWwyjy3BgsiuCSJtHR6fDJS340GqHZUpucLwDQv72ewA7F-r1uNMgbLxn9MNG_hctK5huSSS8p73ryOazZqDvmPtI28-3Zhaf4y5jkt4jgyyGyBYny1iPboICG-tVtkJbW_8kvIpejeJWqB5Yohfxr9PoQUmf&key=AIzaSyABy1ypkUJdot9KquA2UlW57Ob70RkZWxc"
+  },
+  {
+    "trail_name": "Red Mountain Trail",
+    "rating": 4.8,
+    "max_rating": 5,
+    "address": "Left at milepost 247, US-180, Flagstaff, AZ 86001, USA",
+    "description": "No description available.",
+    "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AWn5SU6E9kinHE7lp8gmKaBvEHpG9sRKCYbisf03BtVsI6yK48JV6MvS7D7R3iHo_qZHyTqK_xfcwYqxRihICvrzlOG1_mrG0YqBfuYlzOpx0SbRix_EMLEb8axQu9ZTpN1g68EFTr8tdOoWOzB6Ok49kHJU818NxEn7_1kqM8OR9O5wbJeSdB-jjxbK5_E5SSKtkh1aX-bD69eDLe7efb4eVdHzzfDUfaN3TJ2hCZPfRklVtrBohcSdI2PEDUXshGMAVMZ3nwzrBhVyieIZ7ABZjISJC1EsJ9Z6VZWAGfSvvZPpYdfQ1x7xqdR9JR3SCgE6HqxJ0fNAdfxQhBwdtrK_x08L4SNR4SaEtQJzlu70sXy08CgQxFU4T12C0wxH7FoBpgCYHeC_j7-Q4Qwko2c8qtrdrapEKUL5F_8j34dB5L0Q6Q&key=AIzaSyABy1ypkUJdot9KquA2UlW57Ob70RkZWxc"
+  },
+  {
+    "trail_name": "Fisher Point",
+    "rating": 4.8,
+    "max_rating": 5,
+    "address": "Flagstaff, AZ 86001, USA",
+    "description": "No description available.",
+    "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AWn5SU4N5SBe0OFUg6MlkMxATjX2HAkkRgUv8t314zGG7Yx5ZS51iy9pFhNoYGqdnA4mx1CxLwAAfJ-Fm8hzJcd_VZ2AApyH3MZ4T6d-jX2y5CKFRt_fn8UWC_kW1T_7BFmIm3Ug_OCbGvyUnVVgVddHAu2ro29bn_jmFFlIuqNPRa5cfpamvBQ-r3954uiRtBoP-Z9wIjPJiJrYTcyYZMWwIvAhYd7yDJk-OEQAwsA8Lv6TGjxFrggM3KFhvQgNJkACvkP8GdY1n1jp_SM1XC_UBnR1wlr9BylYEO-SOJGPexEzFfL49w0uYRzRDHdrPtDAXvcxw1jOyZmF3fgj9f4xk1rlIzL9ASh0hrYZYsDHzbkkS0-qZUKJYbSMrHC1529JqodLTAHASJKgFdTSLdvOqoG1aC5_ZKaRGflQGSvq4pxl-w&key=AIzaSyABy1ypkUJdot9KquA2UlW57Ob70RkZWxc"
+  },
+  {
+    "trail_name": "Humphreys Peak Trail",
+    "rating": 4.8,
+    "max_rating": 5,
+    "address": "Humphreys Summit Trail, Flagstaff, AZ 86001, USA",
+    "description": "No description available.",
+    "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AWn5SU74WzPx90xSLnHJr79KlHahQcRjrI8Ls-YzSBPnzpPnoOdoSwNpzuhXhxrrowoZ47pCHfVQgGjVdUH8lRhIhbdZa6hw8JJA6f2FAhecciKfvqz2U_YsL_CcMmukgOr-1if3AKWqpksOOHGFU8ywgUn4zIS_peKKRPxGSS23piOeC1105CBH26Q2YNsgbed2_gp5H06pAxmaNlL3DBkHnXzFRmgwNjta8SL1wpze8GCckuE4gBu72jkTSkaI2hpLhvqScliVweAQCVVKgWN10TMHxiyWlElkRTvu6hKtEYug4Pxg9_c3nl-UT41BP1LME6l9Vg8kF75mvojvpAt4wsh3lF4xKKVXYzDhdHP57i_GMAdbptLix5k3616MzgLyqFkpXwdkeyfmp40RyWHgLxryCeNDNlewIZ4Txl48Ti2s&key=AIzaSyABy1ypkUJdot9KquA2UlW57Ob70RkZWxc"
+  },
+  {
+    "trail_name": "Buffalo Park",
+    "rating": 4.8,
+    "max_rating": 5,
+    "address": "2400 N Gemini Rd, Flagstaff, AZ 86004, USA",
+    "description": "215-acre park offers a 2-mile hiking loop trail, picnicking space, wildlife & scenic mountain views.",
+    "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AWn5SU6oOh2JjKY3vE9Jxdlsv9lNi7dfDwetanqfxor3B65-gGI5oJmXUnjX6bgGKuKIFJOMCjdjGk81Z7smm3Lw2LTbWRxkoL2ewfEvFd8dMOM44PS8K1wRY9DcKhUwa3QK0DTk6zbtlfzGAMVwUCuQTl3E1C6XVx46HJWheI7BA3zRnXCPXzuSZIAy-5Z848-TzVE9pB8RLIGDz4URGc3xJXIGJLLNLlk72Rl-AndWBa5s8pJXq48gZbBgSmHXjFZg3ju3p2sGlDZYNz9uZFNL7Sy59-z-dnpmBYjCyoroa5zC9Dk3Uli8aWFH6r60Ku_NUZ82QF6ITjva5PVEWkU_O1CN_SHvVnNOqUjj4VGPsgl1UptLnAaknnvp07EFUjxrgnbjiKnQ2Bh0HTxI8wpuJfjHD4rqjlm1ro6V2o5Pd6duL_bI&key=AIzaSyABy1ypkUJdot9KquA2UlW57Ob70RkZWxc"
+  },
+  {
+    "trail_name": "Mt Elden Lookout Trail",
+    "rating": 4.8,
+    "max_rating": 5,
+    "address": "Flagstaff, AZ 86001",
+    "description": "Beautiful area with dense aspen groves no matter how you slice it.",
+    "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AWn5SU72dnqwppPi6V5M8asZ1ICe-afzewCUC6bBJ-4pI_3rohqpwBHIUNh5bGH7Fm5aeOacWZIJFS7jAyh40h_x05ioEfYrYDUpJu1BzrUe-YnP_mMskQOueWc_mhgbxantnNnCKMnRDEyEJ_Kc88to7u0WZRXjqG5jz0_5KxUcetzD6SPUTFRbx8kKM9Db0zXISxISietmb98UAQ-1p40OOHHumJscPVe-LPs9Q4sl5fKPb91XW2WyluKsSvFi-NUarVzuiWimVDO5F8SbAmmhCgU8TyAWQc4ySDCHvDwcS5rBU4nNlj-2uM5mx5i_O9GfjRdmIUazppX-vw14E1vzag_SHgWN7Su0HpD4KRIs22TAmQq--jVYM8zn7u7FRmVXsJHi5zqqxHvvAyE9dnJbGt5r6siKn4lRKMvzRgZ7atBlRw&key=AIzaSyABy1ypkUJdot9KquA2UlW57Ob70RkZWxc"
+  },
+  {
+    "trail_name": "Campbell Mesa Loop Trails",
+    "rating": 4.8,
+    "max_rating": 5,
+    "address": "Forest Service Rd 790, Flagstaff, AZ 86004, USA",
+    "description": "No description available",
+    "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AWn5SU5Fwfqi1v9AIUjjaN-thStNm4ZyIOzYD0liBLhYfvaVomnmR8Xyp6h_H1q_kMu5Lc40jiZ3xANfrZRYBq9X6ZpE0hp6_M6ciicJCn5a6xN9EnTUBeAWPTolIaB_efgzIAFCmWz7G9sTjui71xicKb8wJuHZv8bWRxoSDfNhY-2jQTBpoMgcOSDBgTUDDPa5m6zbaIjKcd7p_5mXxZkXxD6ZNxQgG9KCoD_uaSxJkv7RX1w_CeqR1u4E-cKDMRsTwiv_Cq2QkYSJ3s2pRyiNeM1EtdPAManer1xnoL-_q1n3jjuxXzW4Efq_ydLizNC888sNXqq5WA_0NiXk4LY7yU_bjqC2u5uNPqGuTGkKBEtu5VL0WhJzH2iRgEoZJOabpM7_MJHh1EGYU0z2nkz0Ke8ZpnkxAa44V8e36mk7KyzZOy8Z&key=AIzaSyABy1ypkUJdot9KquA2UlW57Ob70RkZWxc"
+  },
+  {
+    "trail_name": "Fort Tuthill County Park",
+    "rating": 4.7,
+    "max_rating": 5,
+    "address": "2446 Ft Tuthill Lp, Flagstaff, AZ 86005, USA",
+    "description": "Sprawling area with archery & equestrian facilities plus trails, fairgrounds & an adventure course.",
+    "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AWn5SU5pvDQomaMgkrbH8YKTRJuUR-JFKt967osSJKsnfWAE9TSeQk0FDp66LLTnYpJPciT6CpWABVIYirU-YrCoz-ZQ9f55ppKUHOhxG9mKDT6Vf8VpsgOQ-iv4pwIelIMupG3aXo84cN_lR0Wp-hAcSdI_pqueP4O2rApD6JQ3SLpLQwGLbBhYJkXjef-Wn0ukmlp04pxeb2FX6jqTGo8G39sK2GrQg_i-H44mP1kPN-fUsNb_DrmUJzKf_WQlCDqFnpnNgNPBvpaPLxnSTpYtScAAXaQ9rl5cIbe7OhFABESlpsbQih9R27zKDk7yroD3f9vR2Uh31fsPeJveyomKmW-P9pwRH3J2fxjoo_XECgcW6skMIjp3DRl_iMSuAxWtUGJSWMmakOAzZ93gKQ8T9By5-wH8_Upg9edM2yngFyjcow&key=AIzaSyABy1ypkUJdot9KquA2UlW57Ob70RkZWxc"
+  },
+  {
+    "trail_name": "Veit Springs Trailhead",
+    "rating": 4.7,
+    "max_rating": 5,
+    "address": "Flagstaff, AZ 86001, USA",
+    "description": "No description available.",
+    "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AWn5SU42zH0UVew1mzHJoICSX_NHDUCmz_CSkzin3MyEU5l-8Mu06UWTiGIO10REMWRIBAuNGb1xCKm6HiGcfy2h4SHJbSvHUyFS9scTYapMAoys5R1EnEj2t-79gytkBIY300r1XIqoEi4wAJXTcwpS3QTAmMvMgfBdowdbHzAjr8dMumh1n8s86vD9VSAeyZ8LwQKeKiRBX5EHjVo-lifPUUguocKO3lzbvsFUKlvoC_gUcbslytilKjKnTA6V6W_T0filioA_x9sSNnzeSZBxmGE0qBxpPyfu_uMDyidJhJEJRzX0mvPMYnqoAVsosR2KUP8mdfQocPW2JSAyXyFGZ90YvO0lfZI6MhSchyu3IO_fxVDmA8QTpO8A0gfhjgfInfvod6HXRjX8q8wEgAPrJobn6C8fbGZpYJk1ixmeDjoa-gc&key=AIzaSyABy1ypkUJdot9KquA2UlW57Ob70RkZWxc"
+  },
+  {
+    "trail_name": "Ponderosa Trails Park",
+    "rating": 4.7,
+    "max_rating": 5,
+    "address": "3875 S Wild West Trail, Flagstaff, AZ 86001, USA",
+    "description": "Small neighborhood park with a playground, picnic/BBQ shelter, walking path & portable restrooms.",
+    "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AWn5SU507SZsDhuaxEQsL0yjiMo1Eds-WLpZ4rM95pPqwomXw_LmIe_xrocNGv0c-qAP-r9MCbRGh8HxTQxdHFrWJUIcGfTC1Yxde3o8Wpkdz9TnZvafxq3q7e7loNXOpagVW2jZ1cOk1UG7aumIV2HLAM1RCG7G6Tjl0gVu24d74vgGy8HpwXDh2BccX9m-z6PmELcocn2vhXyhK4TN36O-o3YR2fJ3PrGm0l1F4uFHNoz5BkD4Aa5UpuyJ27HVzddvvc5EzAwvuf9AXhslZg3_TtcKucTwSb1bb96KRtU5_-4r1SJpRlNBLmjQl8qpUoaWnWYQIItPzHHkutEYnVobTkrNHUlSgNA8FULwk491YWXABTc2pRTwFwSe1HJucL1Kwp40wsfXedLB1ErNoiKoHCgeUYXhx56N5_lYEsk-pGbKHPU&key=AIzaSyABy1ypkUJdot9KquA2UlW57Ob70RkZWxc"
+  },
+  {
+    "trail_name": "Thorpe Park Sports & Recreation Complex",
+    "rating": 4.7,
+    "max_rating": 5,
+    "address": "191 N Thorpe Rd, Flagstaff, AZ 86001, USA",
+    "description": "Green space featuring play equipment, tennis courts & an off-leash dog park.",
+    "image_url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AWn5SU5ZP5kVUaRx5YKie5lGWBdmYZanE2zV37zFkafbEZowS5kEIC92eFpplHs8vEy-Tw2fx0VTuJ2LN6xzWnAtRJ9lV3NmdY0B-wKZ3fa_RDI9syqNcNZ98XlcyR3zSf5_qvoBSF1aPaqKUsCBDRTrLhORO2ZwiZt34HUyFfQv81KjlmO7ISqOKllc8kenvLN_E4BBhg-5DHbE7mSFY8V4iEOZtfV4AJU8BLs903HHfYMzqtHRT9RdhPLFmSCsQEU6lfufT6I1QMeqDgXl0GmQYg3CYFkuTNlcbKPHljyhILIVCSuU6659ThaMuQ5O3a8pYhqkRmXd1-8tPvkqcoMdHi9u0fn9WQYhEBHhf9ry7R5ec-_Z9DH2t6rwgOZkIzkVpzxw0I_HNSQt3k_l5MJ3UxpERxrAxNdE0-OOVFl9fTH7LGlT&key=AIzaSyABy1ypkUJdot9KquA2UlW57Ob70RkZWxc"
   }
 ]
