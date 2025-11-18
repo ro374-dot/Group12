@@ -1,21 +1,11 @@
-// trail-loader.js
-
-// Global variables
-let loadingMore = false;
-
-// Function to create a trail object
-function createTrail(name, rating, maxRating, address, description, imageUrl) {
-    return {
-        trail_name: name,
-        rating: rating,
-        max_rating: maxRating,
-        address: address,
-        description: description,
-        image_url: imageUrl
-    };
+// Function to generate a random position within the container
+function getRandomPosition(containerWidth, containerHeight, elementSize) {
+    const x = Math.random() * (containerWidth - elementSize);
+    const y = Math.random() * (containerHeight - elementSize);
+    return { x, y };
 }
 
-// Function to load trail data into a specific container
+// Modified loadTrails function to spawn squares randomly
 function loadTrails(container) {
     fetch('api/trails.json')
         .then(response => response.json())
@@ -28,17 +18,28 @@ function loadTrails(container) {
                 trail.description,
                 trail.image_url
             ));
+
+            // Get container dimensions
+            const containerWidth = container.clientWidth;
+            const containerHeight = container.clientHeight;
+            const squareSize = 50; // size of each square in pixels
+
             trails.forEach(trail => {
                 const trailDiv = document.createElement('div');
-                trailDiv.className = 'trail';
+                trailDiv.className = 'trail-square';
 
-                trailDiv.innerHTML = `
-                    <h2>${trail.trail_name}</h2>
-                    <img src="${trail.image_url}" alt="${trail.trail_name}">
-                    <p><strong>Rating:</strong> ${trail.rating} / ${trail.max_rating}</p>
-                    <p><strong>Address:</strong> ${trail.address}</p>
-                    <p>${trail.description}</p>
-                `;
+                // Assign random position
+                const pos = getRandomPosition(containerWidth, containerHeight, squareSize);
+                trailDiv.style.position = 'absolute';
+                trailDiv.style.width = `${squareSize}px`;
+                trailDiv.style.height = `${squareSize}px`;
+                trailDiv.style.left = `${pos.x}px`;
+                trailDiv.style.top = `${pos.y}px`;
+                trailDiv.style.backgroundColor = getRandomColor();
+
+                // Optional: add tooltip or click event to show trail info
+                trailDiv.title = trail.trail_name;
+
                 container.appendChild(trailDiv);
             });
         })
@@ -50,48 +51,10 @@ function loadTrails(container) {
         });
 }
 
-// Function to create a new container and load trail data
-function createNewContainer() {
-    const container = document.createElement("div");
-    container.className = "trail-section";
-
-    const trailContentDiv = document.createElement('div');
-    trailContentDiv.className = 'trail-content';
-
-    container.appendChild(trailContentDiv);
-    document.getElementById("wrapper").appendChild(container);
-
-    loadTrails(trailContentDiv);
+// Helper function to generate a random color
+function getRandomColor() {
+    const r = Math.floor(Math.random() * 256);
+    const g = Math.floor(Math.random() * 256);
+    const b = Math.floor(Math.random() * 256);
+    return `rgb(${r}, ${g}, ${b})`;
 }
-
-// Initialize initial containers on page load
-function initTrailLoading() {
-    for (let i = 0; i < 10; i++) {
-        createNewContainer();
-    }
-}
-
-// Infinite scroll event handler
-function handleScroll() {
-    if (!loadingMore) {
-        let scrolledTo = window.scrollY + window.innerHeight;
-        let pageHeight = document.documentElement.scrollHeight;
-
-        if (scrolledTo >= pageHeight - 1) {
-            loadingMore = true;
-            setTimeout(() => {
-                for (let i = 0; i < 5; i++) {
-                    createNewContainer();
-                }
-                loadingMore = false;
-            }, 250);
-        }
-    }
-}
-
-// Attach event listeners
-window.addEventListener("load", () => {
-    initTrailLoading();
-});
-
-window.addEventListener("scroll", handleScroll);
