@@ -1,5 +1,9 @@
-// ... your words, id, loadingMore, etc.
+// trail-loader.js
 
+// Global variables
+let loadingMore = false;
+
+// Function to create a trail object
 function createTrail(name, rating, maxRating, address, description, imageUrl) {
     return {
         trail_name: name,
@@ -11,7 +15,7 @@ function createTrail(name, rating, maxRating, address, description, imageUrl) {
     };
 }
 
-// Load trail data into a specific container
+// Function to load trail data into a specific container
 function loadTrails(container) {
     fetch('api/trails.json')
         .then(response => response.json())
@@ -46,7 +50,7 @@ function loadTrails(container) {
         });
 }
 
-// Create a container, then load trail data into it
+// Function to create a new container and load trail data
 function createNewContainer() {
     const container = document.createElement("div");
     container.className = "trail-section";
@@ -60,15 +64,15 @@ function createNewContainer() {
     loadTrails(trailContentDiv);
 }
 
-// Initial load
-window.addEventListener("load", () => {
+// Initialize initial containers on page load
+function initTrailLoading() {
     for (let i = 0; i < 10; i++) {
         createNewContainer();
     }
-});
+}
 
-// Infinite scroll
-window.addEventListener("scroll", () => {
+// Infinite scroll event handler
+function handleScroll() {
     if (!loadingMore) {
         let scrolledTo = window.scrollY + window.innerHeight;
         let pageHeight = document.documentElement.scrollHeight;
@@ -83,4 +87,11 @@ window.addEventListener("scroll", () => {
             }, 250);
         }
     }
+}
+
+// Attach event listeners
+window.addEventListener("load", () => {
+    initTrailLoading();
 });
+
+window.addEventListener("scroll", handleScroll);
