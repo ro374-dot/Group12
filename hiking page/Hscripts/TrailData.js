@@ -13,9 +13,9 @@ function createTrail(name, rating, maxRating, address, description, imageUrl) {
 // Function to fetch and display trails
 function loadTrails() {
   fetch('api/trails.json')
-    .then(response =&gt; response.json())
-    .then(data =&gt; {
-      const trails = data.map(trail =&gt; createTrail(
+    .then(response => response.json())
+    .then(data => {
+      const trails = data.map(trail => createTrail(
         trail.trail_name,
         trail.rating,
         trail.max_rating,
@@ -26,22 +26,22 @@ function loadTrails() {
 
       const container = document.getElementById('trails-container');
 
-      trails.forEach(trail =&gt; {
+      trails.forEach(trail => {
         const trailDiv = document.createElement('div');
         trailDiv.className = 'trail';
 
         trailDiv.innerHTML = `
-          &lt;h2&gt;${trail.trail_name}&lt;/h2&gt;
-          &lt;img src="${trail.image_url}" alt="${trail.trail_name}"&gt;
-          &lt;p&gt;&lt;strong&gt;Rating:&lt;/strong&gt; ${trail.rating} / ${trail.max_rating}&lt;/p&gt;
-          &lt;p&gt;&lt;strong&gt;Address:&lt;/strong&gt; ${trail.address}&lt;/p&gt;
-          &lt;p&gt;${trail.description}&lt;/p&gt;
+          <h2>${index + 1}. ${trail.trail_name}</h2>
+          <img src="${trail.image_url}" alt="${trail.trail_name}">
+          <p><strong>Rating:</strong> ${trail.rating} / ${trail.max_rating}</p>
+          <p><strong>Address:</strong> ${trail.address}</p>
+          <p>${trail.description}</p>
         `;
 
         container.appendChild(trailDiv);
       });
     })
-    .catch(error =&gt; {
+    .catch(error => {
       console.error('Error fetching trail data:', error);
       document.getElementById('trails-container').innerText = 'Failed to load trail data.';
     });
