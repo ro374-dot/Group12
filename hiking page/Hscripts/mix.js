@@ -105,3 +105,4 @@ function handleScroll() {
 window.addEventListener("load", () => {
     window.addEventListener("scroll", handleScroll);
 });
+window.addEventListener("scroll", handleScroll);
