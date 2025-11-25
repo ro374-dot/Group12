@@ -102,7 +102,7 @@ function handleScroll() {
                 // Stop loading more after 20 trails
                 if (currentIndex >= maxTrailsToLoad) {
                     window.removeEventListener("scroll", handleScroll);
-                    content += '  <footer> <p>&copy; 2025 Flagstaff Adventures. All rights reserved.</p></footer>';
+                    <footer> <p>&copy; 2025 Flagstaff Adventures. All rights reserved.</p></footer>
                 }
                 loadingMore = false;
             }, 250);
