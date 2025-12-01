@@ -61,7 +61,7 @@ function loadNextShops() {
         const shop = allShops[i];
         const shopObj = createShop(
             shop.name,
-            shop.rating / 5, // Convert to 0-1 scale if needed, or just display rating/5
+            shop.rating, // Convert to 0-1 scale if needed, or just display rating/5
             shop.address,
             shop.description,
             shop.photo
