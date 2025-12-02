@@ -1,4 +1,4 @@
-// shop-loader.js
+// Shop Loader Script - Updated for batch sections
 
 // Global variables
 let allShops = [];
@@ -43,9 +43,11 @@ function loadNextShops() {
         return; // No more shops to load
     }
 
+    // Create a new section container for this batch
     const container = document.createElement('div');
     container.className = 'shop-section';
 
+    // Create inner content div
     const shopContentDiv = document.createElement('div');
     shopContentDiv.className = 'shop-content';
 
@@ -53,7 +55,7 @@ function loadNextShops() {
     document.getElementById("wrapper").appendChild(container);
 
     // Load next set of shops
-    const batchSize = 5; // Number of shops per scroll
+    const batchSize = 5; // Number of shops per batch
     const startIndex = currentIndex;
     const endIndex = Math.min(currentIndex + batchSize, allShops.length, maxShopsToLoad);
 
@@ -61,7 +63,7 @@ function loadNextShops() {
         const shop = allShops[i];
         const shopObj = createShop(
             shop.name,
-            shop.rating, // Convert to 0-1 scale if needed, or just display rating/5
+            shop.rating,
             shop.address,
             shop.description,
             shop.photo
@@ -69,7 +71,6 @@ function loadNextShops() {
         const shopDiv = document.createElement('div');
         shopDiv.className = 'shop';
 
-        // Display rating as fraction (e.g., 4.6 / 5)
         shopDiv.innerHTML = `
             <h2>${shopObj.shop_name}</h2>
             <img src="${shopObj.image_url}" alt="${shopObj.shop_name}">
