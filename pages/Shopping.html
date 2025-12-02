@@ -71,14 +71,6 @@
       text-shadow: 0 0 10px #f1c40f;
     }
 
-    /* Search container styles for centering */
-    .search-container {
-      display: flex;
-      align-items: center;
-      justify-content: center; /* Center on larger screens and mobile */
-      width: 100%;
-    }
-
     /* Trail item styles */
     .trail {
       border: 1px solid #ccc;
@@ -86,10 +78,9 @@
       margin: 10px 0;
     }
 
-    /* Make images responsive */
-    img {
-      max-width: 100% !important;
-      height: auto !important;
+    .trail img {
+      max-width: 100%;
+      height: auto;
     }
 
     /* Footer styles */
@@ -102,7 +93,7 @@
     }
 
     /* Responsive adjustments for smaller screens */
-    @media(max-width: 768px){
+    @media (max-width: 768px) {
       header h1 {
         font-size: 6vw;
       }
@@ -116,10 +107,9 @@
         align-items: stretch;
       }
 
-      /* Center the search container on mobile, add space */
-      .search-container {
-        justify-content: center; /* Keep centered on mobile */
-        padding: 10px 0;
+      nav a {
+        margin: 10px 0;
+        font-size: 4vw;
       }
 
       #searchInput {
@@ -136,9 +126,9 @@
   </header>
   <nav>
     <a href="javascript:history.back()" style="font-weight: bold;">Back to Home Page</a>
-    <div class="search-container">
-      <input type="text" id="searchInput" placeholder="Search shop..." />
-      <button id="searchButton">Search</button>
+    <div style="display: flex; align-items: center;">
+      <input type="text" id="searchInput" placeholder="Search shop..." style="padding: 5px;"/>
+      <button id="searchButton" style="margin-left: 10px; padding: 5px;">Search</button>
     </div>
   </nav>
   <div id="wrapper"></div>
