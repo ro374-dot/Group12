@@ -1,10 +1,18 @@
-// Shop Loader Script - Updated for batch sections
+// Shop Loader Script
 
 // Global variables
 let allShops = [];
 let currentIndex = 0; // To track which shops have been loaded
 const maxShopsToLoad = 20; // Stop loading after 20 shops
 let loadingMore = false;
+
+// Function to shuffle array
+function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
 
 // Fetch all shops once
 fetch('api/flagstaffShops.json') // Replace with your API URL if needed
@@ -17,14 +25,6 @@ fetch('api/flagstaffShops.json') // Replace with your API URL if needed
   .catch(error => {
     console.error('Error fetching shop data:', error);
   });
-
-// Function to shuffle array
-function shuffle(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
-}
 
 // Function to create a shop object
 function createShop(name, rating, address, description, imageUrl) {
