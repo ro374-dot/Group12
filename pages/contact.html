@@ -13,9 +13,7 @@
       padding: 0;
       background-color: #f0f0f0;
       text-align: center;
-      font-size: 16px; /* default font size */
-
-      /* Added smooth fade animation */
+      font-size: 16px;
       animation: fadeIn 1s ease-in;
     }
 
@@ -24,7 +22,7 @@
       padding: 20px 0;
     }
     header h1 {
-      font-size: 4vw; /* scales with viewport width */
+      font-size: 4vw;
       margin: 0;
       color: white;
     }
@@ -63,21 +61,22 @@
       box-shadow: 0 -3px 10px rgba(0,0,0,0.3);
     }
     .contact-container {
-      display: flex; /* Changed to flex for PC layout */
-      flex-wrap: wrap; /* Allow wrapping on small screens */
+      display: flex;
+      flex-wrap: wrap;
       width: 100%;
       margin: 0;
       padding: 20px 0;
       gap: 20px;
+      flex-direction: row;
     }
     .contact-card {
-      flex: 1 1 18%;
-      min-width: 180px;
+      flex: 1 1 15%; /* Slightly wider than before for content */
+      max-width: 200px; /* Larger max width for bigger content */
       background: #5DADE2;
-      padding: 50px 20px;
+      padding: 30px 15px; /* Smaller padding to maximize space */
       text-align: center;
-      height: 350px;
-      border: 1px solid #1b2733; /* light border between cards */
+      min-height: auto; /* Let height adjust based on content */
+      border: 1px solid #1b2733;
       color: white;
       transition: 0.3s;
       border-radius: 10px;
@@ -101,21 +100,18 @@
     /* For mobile devices, stack vertically */
     @media (max-width: 768px) {
       .contact-container {
-        flex-direction: column; /* Stack vertically */
+        flex-direction: column;
       }
       header h1 {
         font-size: 6vw;
       }
-
       body {
         font-size: 14px;
       }
-
       nav {
         flex-direction: column;
         align-items: stretch;
       }
-
       nav a {
         margin: 10px 0;
         font-size: 4vw;
