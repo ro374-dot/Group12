@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact Us - Flagstaff Adventures</title>
-    </head>
   <style>
     nav {
       background-color: #34495e;
@@ -23,7 +22,6 @@
       font-weight: bold;
       transition: 0.3s;
     }
-
     nav a:hover {
       text-decoration: underline;
       color: #f1c40f;
@@ -36,119 +34,106 @@
       margin-top: 40px;
       box-shadow: 0 -3px 10px rgba(0,0,0,0.3);
     }
-    
-  .contact-container {
-    display: flex;
-    width: 100%;
-    margin: 0;
-    padding: 20px 0;
-    gap: 20px
-  }
-    .contact-card {
-    flex: 1 1 18%; 
-    min-width: 180px;
-    background: #5DADE2;
-    padding: 50px 20px;
-    text-align: center;
-    height: 350px;
-    border: 1px solid #1b2733; /* light border between cards */
-    color: white;
-    transition: 0.3s;
-    border-radius: 10px;
-  }
-
-  .contact-card:hover
-    .contact-card h2,
-    .contact-card p,
-    .contact-card a{
-      color:white;
-      
-  }
-
-  .contact-card:hover {
-    transform: translateY(-8px) scale(1.03);
-    background-color: #3498DB;
-  }
-
-  .contact-card a {
-    color: #ffffff;
-    font-weight: bold;
-    text-decoration: none;
-  }
-
-  .contact-card a:hover {
-    text-decoration: underline;
-  }
-
-  /*For multi media purposes*/
-  @media (max-width: 768px) {
-    .contact-container {
-      grid-template-columns: 1fr;
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
     }
-  }
-  
-</style>
-  <main>
-  <body>
-  <header style="background-color: light blue; padding: 20px 0;">
+    .contact-container {
+      display: flex; /* Changed to flex for PC layout */
+      flex-wrap: wrap; /* Allow wrapping on small screens */
+      width: 100%;
+      margin: 0;
+      padding: 20px 0;
+      gap: 20px;
+    }
+    .contact-card {
+      flex: 1 1 18%;
+      min-width: 180px;
+      background: #5DADE2;
+      padding: 50px 20px;
+      text-align: center;
+      height: 350px;
+      border: 1px solid #1b2733; /* light border between cards */
+      color: white;
+      transition: 0.3s;
+      border-radius: 10px;
+    }
+    .contact-card:hover {
+      transform: translateY(-8px) scale(1.03);
+      background-color: #3498DB;
+    }
+    .contact-card h2 {
+      margin-top: 0;
+    }
+    .contact-card a {
+      color: #ffffff;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .contact-card a:hover {
+      text-decoration: underline;
+    }
+
+    /* For mobile devices, stack vertically */
+    @media (max-width: 768px) {
+      .contact-container {
+        flex-direction: column; /* Stack vertically */
+      }
+    }
+  </style>
+</head>
+<body>
+  <header style="background-color: lightblue; padding: 20px 0;">
     <div style="text-align: center; color: white; background-color: #2c3e50; padding: 20px 5px;">
-    <h1>Connect With Us!</h1>
+      <h1>Connect With Us!</h1>
     </div>
   </header>
 
   <nav>
     <a href="javascript:history.back()" style="font-weight: bold;">Back to Home Page</a>
     <div style="display: flex; align-items: center;">
+      <!-- Additional nav items can go here -->
+    </div>
   </nav>
-    
+
   <section class="contact-container">
- <div class="contact-card">
-     <h2>Gustavo Cardenas Rosales </h2>
-    <p>About Me: I like to draw on my time off and wacth anime.</p>
-    <p>School/Major: Northern Arizona University-B.S Computer Science</p>
-    <p>Email: <a href="malito:gc839@nau.edu">gc839@nau.edu</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/gustavo-cardenas-rosales-480033364"
-                 target="_blank"
-                   >www.linkedin.com/in/gustavo-cardenas-rosales-480033364</a></p>
-  </div>
-  <div class="contact-card">
-    <h2>Druhti Patel</h2>
-    <p>About Me: I like to watch tv shows and movies on my free time and I also love traveling and exploring new things</p>
-    <p>School/Major: Northern Arizona University - Major in Cyber Security and Minor in CS</p>
-    <p>Email: <a href="malito:dsp223@nau.edu">dsp223@nau.edu</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/dhrutipatel42"
-                   target="_blank"
-                   >linkedin.com/in/dhrutipatel42</a></p>
-  </div>
+    <div class="contact-card">
+      <h2>Gustavo Cardenas Rosales</h2>
+      <p>About Me: I like to draw on my time off and watch anime.</p>
+      <p>School/Major: Northern Arizona University - B.S Computer Science</p>
+      <p>Email: <a href="mailto:gc839@nau.edu">gc839@nau.edu</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/gustavo-cardenas-rosales-480033364" target="_blank">www.linkedin.com/in/gustavo-cardenas-rosales-480033364</a></p>
+    </div>
+    <div class="contact-card">
+      <h2>Druhti Patel</h2>
+      <p>About Me: I like to watch TV shows and movies on my free time and I also love traveling and exploring new things</p>
+      <p>School/Major: Northern Arizona University - Major in Cyber Security and Minor in CS</p>
+      <p>Email: <a href="mailto:dsp223@nau.edu">dsp223@nau.edu</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/dhrutipatel42" target="_blank">linkedin.com/in/dhrutipatel42</a></p>
+    </div>
+    <div class="contact-card">
+      <h2>Hilbert Lee</h2>
+      <p>About Me: Currently a 2nd Year at NAU, Also a student worker for an environmental organization.</p>
+      <p>School/Major: Northern Arizona University - B.S. Immersive Media and Games</p>
+      <p>Email: <a href="mailto:hfl16@nau.edu">hfl16@nau.edu</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/hilbert-lee-5b2730366/" target="_blank">www.linkedin.com/in/hilbert-lee-5b2730366</a></p>
+    </div>
+    <div class="contact-card">
+      <h2>Rudy Ochoa</h2>
+      <p>About Me: Hi I'm Rudy. I like to mess with computers and things. I sometimes like to play with cardboard aka Magic: The Gathering.</p>
+      <p>School/Major: Northern Arizona University - Cyber Security</p>
+      <p>Email: <a href="mailto:ro374@nau.edu">ro374@nau.edu</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/rudy-ochoa-16321a340/" target="_blank">https://www.linkedin.com/in/rudy-ochoa-16321a340/</a></p>
+    </div>
+    <div class="contact-card">
+      <h2>Khavi Westbrook</h2>
+      <p>About Me: Placeholder text</p>
+      <p>School/Major: Northern Arizona University -</p>
+      <p>Email: <a href="mailto:kew459@nau.edu">kew459@nau.edu</a></p>
+      <p>LinkedIn: <a href="#">Profile</a></p>
+    </div>
+  </section>
 
-  <div class="contact-card">
-    <h2>Hilbert Lee</h2>
-    <p>About Me: Currently a 2nd Year at NAU, Also a student worker for an environmental organization. </p>
-    <p>School/Major: Northern Arizona University - B.S. Immersive Media and Games</p>
-    <p>Email: <a href="malito:hfl16@nau.edu">hfl6@nau.edu</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/hilbert-lee-5b2730366/">www.linkedin.com/in/hilbert-lee-5b2730366</a></p>
-  </div>
-
-  <div class="contact-card">
-    <h2>Rudy Ochoa</h2>
-    <p>About Me: Hi im Rudy i like to mess with computers and things i sometimes like to play with cardboard aka magic the gathering</p>
-    <p>School/Major: Northern Arizona University -Cyber Security </p>
-    <p>Email: <a href="malito:ro374@nau.edu">ro374@nau.edu</a></p>
-     <p>LinkedIn: <a href="https://www.linkedin.com/in/rudy-ochoa-16321a340/"
-                 target="_blank"
-                   >https://www.linkedin.com/in/rudy-ochoa-16321a340/</a></p>
-  </div>
-
-  <div class="contact-card">
-    <h2>Khavi Westbrook</h2>
-    <p>About Me: Placeholder text</p>
-    <p>School/Major: Northern Arizona University -</p>
-    <p>Email: <a href="malito:kew459@nau.edu">kew459@nau.edu</a></p>
-    <p>LinkedIn: <a href="#">Profile</a></p>
-  </div>
-
-</body>
-    </main>
   <footer>
     <p>&copy; 2025 Flagstaff Adventures. All rights reserved.</p>
   </footer>
