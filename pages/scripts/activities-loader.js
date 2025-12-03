@@ -27,7 +27,7 @@ function performSearch() {
   if (matchedActivitiesIndex !== -1) {
     // Move the matched shop to the front of the array
     const [matchedFood] = allActivities.splice(matchedActivitiesIndex, 1);
-    allShops.unshift(matchedActivities);
+    allActivities.unshift(matchedActivities);
 
     // Reset current index and clear existing shops
     currentIndex = 0;
