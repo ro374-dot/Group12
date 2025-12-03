@@ -27,14 +27,14 @@ function performSearch() {
   if (matchedFoodIndex !== -1) {
     // Move the matched shop to the front of the array
     const [matchedFood] = allFood.splice(matchedFoodIndex, 1);
-    allShops.unshift(matchedFood);
+    allFood.unshift(matchedFood);
 
     // Reset current index and clear existing shops
     currentIndex = 0;
     document.getElementById('wrapper').innerHTML = '';
 
     // Load the shops again (starting with the matched one now at the top)
-    loadNextShops();
+    loadNextFood();
 
     // Optional: scroll to top
     window.scrollTo({ top: 0, behavior: 'smooth' });
